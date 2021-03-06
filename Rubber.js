@@ -18,7 +18,7 @@ class Rubber {
         translate(pos.x, pos.y);
         rotate(angle);
         rectMode(CENTER);
-        strokeweight(3);
+        strokeWeight(3);
         stroke("grey");
         fill("black");
         rect(0, 0, this.width, this.height);
