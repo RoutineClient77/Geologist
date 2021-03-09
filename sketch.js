@@ -1,17 +1,14 @@
-var hammer;
-var ground;
-var stone;
-var rubber;
-
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 
-function preload()
-{
-	
-}
+var hammer;
+var ground;
+var stone;
+var rubber;
+
+
 
 function setup() {
 	createCanvas(800, 700);
